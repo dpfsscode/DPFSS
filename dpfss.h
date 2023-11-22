@@ -21,10 +21,10 @@ public:
     int lambda;
     fmpz_t g;
     fmpz_t h;
-    int t = 20;      // Degree of sharing polynomial
-    int n = 100;      // Number of participants
+    int t = 2;      // Degree of sharing polynomial
+    int n = 10;      // Number of participants
     int N = 10;      // N, where k \in [N]
-    int m = 100;      // Number of secrete
+    int m = 10;      // Number of secrete
     fmpz_mod_ctx_t ctx;
 
     fmpz_mod_mpoly_t* fk;
